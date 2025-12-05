@@ -11,9 +11,21 @@ void draw(){
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
+  fill(255, 194, 42);
+  rect(0,300,400,200);//ground
+  fill(114, 193, 255);
+  ellipse(200,360,300,50);//puddle
+  fill(255,255,255);
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
+  line(246,177,275,75);
+  line(156,177,120,75);
+  //face
+  fill(0,0,0);
+  ellipse(180,115,10,10);
+  ellipse(220,115,10,10);
+
   
 
 }
